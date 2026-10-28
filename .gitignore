@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vite/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Private and local files
+CLAUDE.md
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+coverage/

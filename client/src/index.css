@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --color-ink: #1c2420;
+  --color-paper: #f7f8f5;
+  --color-leaf-700: #1f6b46;
+  --color-leaf-50: #e6f2ea;
+  --color-amber-banner: #fff3cd;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-leaf-700);
+  outline-offset: 2px;
+}

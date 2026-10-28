@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+coverage
+package-lock.json
+CLAUDE.md
+docs/evaluation.md
+docs/api.md
